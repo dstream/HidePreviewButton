@@ -6,7 +6,7 @@
     <title>$title$</title>
     <authors>Dstream</authors>
     <owners>Dstream</owners>
-    <projectUrl>https://github.com/sotirisf/Umbraco-AutoNode.git</projectUrl>
+    <projectUrl>https://github.com/dstream/Umbraco-HidePreviewButton.git</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is a simple plugin that automatically hide preview button, based on a set of user-defined rules.</description>
     <copyright>Copyright 2018</copyright>
