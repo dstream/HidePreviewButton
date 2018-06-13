@@ -233,7 +233,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HidePreviewButtonApiController.cs" />
     <Compile Include="HidePreviewButtonBootstraper.cs" />
     <Compile Include="HidePreviewButtonSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -241,13 +240,8 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-    <None Include="UI\App_Plugins\HidePreviewButton\package.manifest" />
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Content Include="UI\App_Plugins\HidePreviewButton\app.css" />
-    <Content Include="UI\App_Plugins\HidePreviewButton\app.js" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
