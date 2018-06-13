@@ -1,0 +1,11 @@
+﻿{
+
+    javascript: [		
+		'~/App_Plugins/HidePreviewButton/app.js'		
+    ],
+
+    css: [
+		"~/App_Plugins/HidePreviewButton/app.css"		
+    ]
+
+}

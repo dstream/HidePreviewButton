@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Dstream</authors>
+    <owners>Dstream</owners>
+    <projectUrl>https://github.com/sotirisf/Umbraco-AutoNode.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is a simple plugin that automatically hide preview button, based on a set of user-defined rules.</description>
+    <copyright>Copyright 2018</copyright>
+    <tags>umbraco hidepreviewbutton</tags>
+    <references>
+      <reference file="Dstream.HidePreviewButton.dll" />
+    </references>
+    <dependencies>
+      <dependency id="UmbracoCms.Core" version="7.2.7" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="HidePreviewButton\UI\App_Plugins\HidePreviewButton\app.css" target="App_Plugins\HidePreviewButton" />
+    <file src="HidePreviewButton\UI\App_Plugins\HidePreviewButton\app.js" target="App_Plugins\HidePreviewButton" />
+    <file src="HidePreviewButton\UI\App_Plugins\HidePreviewButton\package.manifest" target="App_Plugins\HidePreviewButton" />
+  </files>
+</package>
